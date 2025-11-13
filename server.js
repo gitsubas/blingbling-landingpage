@@ -74,7 +74,7 @@ app.get('/', (_, res) => {
   .brand h1{font-size: clamp(28px, 4.5vw, 52px); margin:0; color:#333}
   .tag{
     margin-top:16px; display:inline-block; padding:10px 16px; border-radius:999px;
-    background:var(--primary); color:var(--textOnPrimary); font-weight:600;
+    background:var(--primary); color:var(--textOnPrimary); font-weight:900;
   }
   .content{padding: 24px; display:grid; grid-template-columns:1fr; gap:24px}
   @media(min-width:840px){ .content{grid-template-columns: 1.2fr .8fr} }
